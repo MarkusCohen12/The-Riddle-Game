@@ -1,0 +1,11 @@
+# Read an integer:
+a = int(input())
+# Read a float:
+# b = float(input())
+# Print a value:
+b= a-1
+c = a +1 
+b = str(b)
+c = str(c)
+print('The next number for the number',a,'is',c+'.')
+print('The previous number for the number',a,'is',b+'.')
