@@ -1,0 +1,17 @@
+# Read an integer:
+hours1 = int(input())
+minutes1 = int(input())
+seconds1 = int(input())
+hours2 = int(input())
+minutes2 = int(input())
+seconds2 = int(input())
+
+hoursdiff = (hours2 - hours1) * 3600
+minutesdiff = (minutes2 - minutes1) * 60
+secondsdiff = (seconds2 - seconds1)
+
+#print(hoursdiff)
+#print(minutesdiff)
+#print(secondsdiff)
+totaldiff = (hoursdiff + minutesdiff + secondsdiff)
+print(totaldiff)
